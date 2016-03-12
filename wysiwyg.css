@@ -1,0 +1,31 @@
+.person {
+  border: 2px solid black;
+  border-radius: 5px;
+  margin: 5px;
+  display: block;
+  width: 200px;
+  text-align: center;
+  background-color: lightblue;
+}
+
+.person:nth-child(even) {
+  background-color: lightyellow;
+}
+
+p {
+  margin: 2px;
+}
+
+header, section {
+  margin: 4px;
+  border-bottom: 2px solid black;
+}
+
+img {
+  height: 60px;
+  width: 50px;
+}
+
+.foo {
+  border: 2px dotted black;
+}
